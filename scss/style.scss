@@ -6,47 +6,6 @@ body {
   font-family: "UTM BryantLG";
 }
 
-@font-face {
-  font-family: "UTM BryantLG";
-  font-style: normal;
-  font-weight: normal;
-  src: url("/font/UTM\ BryantLG.ttf");
-}
-
-@font-face {
-  font-family: "Open Sans" sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  src: url("/font/OpenSans-Bold.ttf");
-}
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-ul,
-li,
-p {
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  list-style: none;
-  float: left;
-}
-
-a {
-  text-decoration: none;
-}
-
 .header-all {
   .header-logo {
     padding: 10px 0 10px 30px;
@@ -80,29 +39,20 @@ a {
     margin-left: 35px;
     .banner-learn {
       margin-top: 200px;
-      @include font(normal,
-      50px,
-      'UTM BryantLG',
-      61px,
-      #11114E);
+      @include font(normal,50px,'UTM BryantLG',61px,#11114E);
     }
+
     .banner-title {
-      @include font(bold,
-      50px,
-      'UTM BryantLG',
-      61px,
-      #11114E);
+      @include font(bold,50px,'UTM BryantLG',61px,#11114E);
     }
+
     .banner-des {
       letter-spacing: -0.05em;
       height: 50px;
       margin-top: 10px;
-      @include font(normal,
-      20px,
-      'UTM BryantLG',
-      25px,
-      #505353);
+      @include font(normal,20px,'UTM BryantLG',25px, #505353);
     }
+
     .btn-start {
       background: $buttonstartcolor;
       border-radius: 35px;
@@ -110,13 +60,9 @@ a {
       padding: 15px 52px;
       box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
       margin-top: 25px;
-      @include font(normal,
-      30px,
-      'UTM BryantLG',
-      37px,
-      #FFFFFF);
+      @include font(normal,30px,'UTM BryantLG',37px,#FFFFFF);
       &:hover {
-        opacity: 0.8;
+        opacity: 0.8; 
       }
     }
   }

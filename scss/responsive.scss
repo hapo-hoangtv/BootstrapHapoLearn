@@ -1,4 +1,4 @@
-@import 'variable';
+// @import 'variable';
 @media only screen and (max-width: 768px) {
   .header-all {
     .header-logo {
@@ -6,7 +6,7 @@
     }
   }
 }
-
+@import 'variable';
 @media only screen and (max-width: 425px) {
   .header-all {
     .header-logo {
@@ -17,6 +17,7 @@
         transform: translateY(-30%);
       }
     }
+
     .header-menu {
       a {
         text-align: center;
