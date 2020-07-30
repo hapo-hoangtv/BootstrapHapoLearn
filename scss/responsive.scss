@@ -1,27 +1,33 @@
 @import 'variable';
-@media only screen and (max-width: 768px) and (min-width: 650px) {
+@media only screen and (max-width: 768px) {
   .header-all {
     .header-logo {
+      padding: 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .header-all {
+    .header-logo {
+      padding: 0;
       .img-logo {
-        width: 140px;
+        width: 150px;
         height: 30px;
-        margin-top: 18px;
+        transform: translateY(-30%);
       }
     }
     .header-menu {
-      margin-top: 10px;
-      li {
-        margin-left: 10px;
-        margin-right: 10px;
-      }
-    }
-    .header-menu {
-      a:hover {
-        color: white;
-        background: $menucolor;
+      a {
+        text-align: center;
+        &:hover {
+          color: $menucolor;
+          background-color: #FFFFFF;
+        }
       }
     }
   }
 }
+
 
 
