@@ -1,0 +1,104 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "UTM BryantLG"; }
+
+@font-face {
+  font-family: "UTM BryantLG";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/font/UTM BryantLG.ttf"); }
+@font-face {
+  font-family: "Open Sans" sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  src: url("/font/OpenSans-Bold.ttf"); }
+* {
+  margin: 0;
+  padding: 0; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+p {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none;
+  float: left; }
+
+a {
+  text-decoration: none; }
+
+.header-all .header-logo {
+  padding: 15px 0 15px 30px; }
+.header-all .header-menu {
+  padding: 28px 0;
+  text-align: center; }
+  .header-all .header-menu li {
+    padding: 0 5px; }
+  .header-all .header-menu a {
+    padding: 10px;
+    font: bold 14px/19px Open-Sans;
+    text-transform: uppercase;
+    color: #505353; }
+    .header-all .header-menu a:hover {
+      border-radius: 20px;
+      background: #B2D235;
+      text-decoration: none; }
+
+.banner {
+  height: 655px;
+  background: url("../image/Rectangle 1.png") no-repeat center/cover; }
+  .banner .hapo-banner {
+    margin-left: 35px; }
+    .banner .hapo-banner .banner-learn {
+      font: normal 50px UTM;
+      line-height: 61px;
+      color: #11114E; }
+    .banner .hapo-banner .banner-title {
+      font: bold 50px UTM;
+      line-height: 61px;
+      color: #11114E; }
+    .banner .hapo-banner .banner-des {
+      letter-spacing: -0.05em;
+      height: 50px;
+      margin-top: 10px;
+      font: normal 20px UTM;
+      line-height: 25px;
+      color: #505353; }
+    .banner .hapo-banner .btn-start {
+      background: #B2D235;
+      border-radius: 35px;
+      -webkit-text-stroke-width: 1px;
+      padding: 15px 52px;
+      box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+      margin-top: 25px;
+      font: normal 30px UTM;
+      line-height: 37px;
+      color: #FFFFFF; }
+      .banner .hapo-banner .btn-start:hover {
+        opacity: 0.8; }
+
+@media only screen and (max-width: 768px) and (min-width: 650px) {
+  .header-all .header-logo .img-logo {
+    width: 140px;
+    height: 30px;
+    margin-top: 18px; }
+  .header-all .header-menu {
+    margin-top: 10px; }
+    .header-all .header-menu li {
+      margin-left: 10px;
+      margin-right: 10px; }
+  .header-all .header-menu a:hover {
+    color: white;
+    background: #B2D235; } }
+
+/*# sourceMappingURL=style.css.map */
