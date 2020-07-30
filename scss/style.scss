@@ -77,14 +77,17 @@ a {
   .hapo-banner {
     margin-left: 35px;
     .banner-learn {
-      @include font-UTM (normal,
+      margin-top: 200px;
+      @include font(normal,
       50px,
+      'UTM BryantLG',
       61px,
       #11114E);
     }
     .banner-title {
-      @include font-UTM (bold,
+      @include font(bold,
       50px,
+      'UTM BryantLG',
       61px,
       #11114E);
     }
@@ -92,8 +95,9 @@ a {
       letter-spacing: -0.05em;
       height: 50px;
       margin-top: 10px;
-      @include font-UTM(normal,
+      @include font(normal,
       20px,
+      'UTM BryantLG',
       25px,
       #505353);
     }
@@ -104,8 +108,9 @@ a {
       padding: 15px 52px;
       box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
       margin-top: 25px;
-      @include font_UTM(normal,
+      @include font(normal,
       30px,
+      'UTM BryantLG',
       37px,
       #FFFFFF);
       &:hover {
@@ -116,5 +121,6 @@ a {
 }
 
 @import 'responsive';
+
 
 

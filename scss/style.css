@@ -60,18 +60,19 @@ a {
   .banner .hapo-banner {
     margin-left: 35px; }
     .banner .hapo-banner .banner-learn {
-      font: normal 50px UTM;
+      margin-top: 200px;
+      font: normal 50px "UTM BryantLG";
       line-height: 61px;
       color: #11114E; }
     .banner .hapo-banner .banner-title {
-      font: bold 50px UTM;
+      font: bold 50px "UTM BryantLG";
       line-height: 61px;
       color: #11114E; }
     .banner .hapo-banner .banner-des {
       letter-spacing: -0.05em;
       height: 50px;
       margin-top: 10px;
-      font: normal 20px UTM;
+      font: normal 20px "UTM BryantLG";
       line-height: 25px;
       color: #505353; }
     .banner .hapo-banner .btn-start {
@@ -81,7 +82,7 @@ a {
       padding: 15px 52px;
       box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
       margin-top: 25px;
-      font: normal 30px UTM;
+      font: normal 30px "UTM BryantLG";
       line-height: 37px;
       color: #FFFFFF; }
       .banner .hapo-banner .btn-start:hover {
