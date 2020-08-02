@@ -1,0 +1,66 @@
+@import 'variable';
+
+.header-all {
+  .header-logo {
+    padding: 10px 0 10px 30px;
+    width: 340px;
+    height: 70px;
+  }
+  .header-menu {
+    padding: 28px 0;
+    text-align: center;
+    li {
+      padding: 0 5px;
+    }
+    
+    a {
+      padding: 10px;
+      font: bold 14px/19px Open-Sans;
+      text-transform: uppercase;
+      color: #505353;
+      &:hover {
+        border-radius: 20px;
+        background: $menucolor;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.banner {
+  height: 655px;
+  background: url("../image/Rectangle\ 1.png") no-repeat center/cover;
+  .hapo-banner {
+    margin-left: 35px;
+    .banner-learn {
+      margin-top: 200px;
+      @include font(normal,50px,'UTM BryantLG',61px,#11114E);
+    }
+
+    .banner-title {
+      @include font(bold,50px,'UTM BryantLG',61px,#11114E);
+    }
+
+    .banner-des {
+      letter-spacing: -0.05em;
+      height: 50px;
+      margin-top: 10px;
+      @include font(normal,20px,'UTM BryantLG',25px, #505353);
+    }
+
+    .btn-start {
+      background: $buttonstartcolor;
+      border-radius: 35px;
+      -webkit-text-stroke-width: 1px;
+      padding: 15px 52px;
+      box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+      margin-top: 25px;
+      @include font(normal,30px,'UTM BryantLG',37px,#FFFFFF);
+      &:hover {
+        opacity: 0.8; 
+      }
+    }
+  }
+}
+
+@import 'responsive';

@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AACA,gEAAiE;EAG3D,kCAAU;IACR,KAAK,EAAE,KAAK;IACZ,MAAM,EAAE,IAAI;IACZ,UAAU,EAAE,IAAI;EAGpB,wBAAa;IACX,UAAU,EAAE,IAAI;IAChB,2BAAG;MACD,WAAW,EAAE,IAAI;MACjB,YAAY,EAAE,IAAI;EAIpB,gCAAQ;IACN,KAAK,EAAE,KAAK;IACZ,UAAU,ECpBN,OAAO",
-"sources": ["responsive.scss","_variable.scss"],
-"names": [],
-"file": "responsive.css"
-}

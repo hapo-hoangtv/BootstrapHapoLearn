@@ -1,0 +1,30 @@
+@media only screen and (max-width: 768px) {
+  .header-all {
+    .header-logo {
+      padding: 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .header-all {
+    .header-logo {
+      padding: 0;
+      .img-logo {
+        width: 150px;
+        height: 30px;
+        transform: translateY(-30%);
+      }
+    }
+
+    .header-menu {
+      a {
+        text-align: center;
+        &:hover {
+          color: $menucolor;
+          background-color: #FFFFFF;
+        }
+      }
+    }
+  }
+}
