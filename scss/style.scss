@@ -32,8 +32,8 @@
   background: url("../image/Rectangle\ 1.png") no-repeat center/cover;
   .hapo-banner {
     margin-left: 35px;
+    transform: translateY(70%);
     .banner-learn {
-      margin-top: 200px;
       @include font(normal,50px,'UTM BryantLG',61px,#11114E);
     }
 

@@ -5,6 +5,40 @@
     }
   }
 
+  .banner {
+    height: 350px;
+    .hapo-banner {
+      transform: translateY(25%);
+      margin-left: 30px;
+      .banner-learn {
+        @include font(normal,30px,'UTM BryantLG',37px,#11114E);
+      }
+  
+      .banner-title {
+        @include font(bold,30px,'UTM BryantLG',37px,#11114E);
+        img {
+          width: 35px;
+          height: 35px;
+        }
+      }
+  
+      .banner-des {
+        letter-spacing: -0.05em;
+        height: 40px;
+        margin-top: 10px;
+        @include font(normal,16px,'UTM BryantLG',20px, #505353);
+      }
+
+      .btn-start {
+        padding: 12px 40px;
+        margin-top: 20px;
+        -webkit-text-stroke-width: 0.5px;
+        @include font(normal,16px,'UTM BryantLG',20px,#FFFFFF);
+      }
+  
+    }
+  }
+
   .footer-menu {
     a {
       @include font(normal, 18px, 'UTM BryantLG', 22px, $mainfootercolor);
@@ -53,6 +87,46 @@
           background-color: #FFFFFF;
         }
       }
+    }
+  }
+
+  .banner {
+    height: 200px;
+    .hapo-banner {
+      transform: translateY(100%);
+      margin-left: 40px;
+      margin-bottom: 5px;
+      justify-content: center;
+      .banner-learn {
+        @include font(normal,30px,'UTM BryantLG',37px,#11114E);
+      }
+  
+      .banner-title {
+        @include font(bold,30px,'UTM BryantLG',37px,#11114E);
+        img {
+          width: 35px;
+          height: 35px;
+        }
+      }
+  
+      .banner-des {
+        letter-spacing: -0.05em;
+        height: 40px;
+        margin-top: 10px;
+        @include font(normal,16px,'UTM BryantLG',20px, #505353);
+      }
+
+      .btn-start {
+        padding: 12px 40px;
+        margin-top: 20px;
+        @include font(bold,18px,'UTM BryantLG',22px,#FFFFFF);
+      }
+
+      a {
+        display: flex;
+        justify-content: center;
+      }
+  
     }
   }
 
