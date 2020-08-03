@@ -67,6 +67,48 @@
       }
     }
   }
+
+  .banner-second {
+    height: 330px;
+
+    .become-title {
+      @include font(bold,35px,'UTM BryantLG',43px,$mainfootercolor);
+      padding-top: 40px;
+    }
+  
+    .btn-start-learn {
+      padding: 10px;
+      margin-top: 20px;
+      @include font(bold,20px,'UTM BryantLG',25px,$bannersecondcolor);
+      border-radius: 35px;
+    }
+  }
+  
+  .hapo-title {
+    margin-top: 60px;
+    @include font(bold,50px,'UTM BryantLG',61px,$hapotitlecolor);
+    .underline {
+    border-bottom: 4px solid #B2D235;
+    border-radius: 3px;
+    padding-bottom: 10px;
+    }
+  }
+  
+  .statistic {
+    .statistic-body {
+      .statistic-learn {
+        margin-top: 28px;
+        letter-spacing: -0.05em;
+        span{
+          @include font(bold,40px,'UTM BryantLG',49px,#505353);
+        }
+        p{
+          @include font(bold,40px,'UTM BryantLG',49px,#B2D235);
+        }
+      }
+    }
+  }
+  
 }
 
 @media only screen and (max-width: 425px) {
@@ -164,6 +206,53 @@
       }
       p {
         @include font(normal, 16px, 'UTM BryantLG', 18px, $mainfootercolor);
+      }
+    }
+  }
+
+  .banner-second {
+    height: 182px;
+
+    .become-title {
+      @include font(bold,23px,'UTM BryantLG',28px,$mainfootercolor);
+      padding-top: 34px;
+      letter-spacing: -0.02em;
+    }
+  
+    .btn-start-learn {
+      padding: 7px;
+      margin-top: 15px;
+      @include font(bold,18px,'UTM BryantLG',22px,$bannersecondcolor);
+      letter-spacing: -0.05em;
+      border-radius: 35px;
+    }
+  }
+  
+  .hapo-title {
+    margin-top: 50px;
+    margin-left: 10px;
+    @include font(bold,40px,'UTM BryantLG',49px,$hapotitlecolor);
+    .underline {
+    border-bottom: 3px solid #B2D235;
+    border-radius: 3px;
+    padding-bottom: 10px;
+    }
+  }
+  
+  .statistic {
+    .statistic-body {
+      display: flex;
+      flex-direction: column;
+        align-items: center;
+      .statistic-learn {
+        margin-top: 26px;
+        letter-spacing: -0.05em;
+        span{
+          @include font(bold,40px,'UTM BryantLG',49px,#505353);
+        }
+        p{
+          @include font(bold,40px,'UTM BryantLG',49px,#B2D235);
+        }
       }
     }
   }
