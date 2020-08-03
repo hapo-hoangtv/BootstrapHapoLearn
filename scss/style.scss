@@ -125,6 +125,61 @@
   }
 }
 
+.hapo-question {
+  height: 730px;
+  background: url('../image/Rectangle\ 17.png') no-repeat center/cover;
+  .question-logo {
+    margin-top: -225px;
+  }
+  
+  .question-why-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .hapo-question-title {
+      @include font(bold,70px,'UTM BryantLG',86px,$mainfootercolor);
+      letter-spacing: -0.02em;
+      text-align: center;
+    }
+    
+    .hapo-question-body {
+      .reason {
+        @include font(normal,20px,'UTM BryantLG',25px,$mainfootercolor);
+        margin-left: 90px;
+        margin-top: 30px;
+      }
+    }
+    
+    .hapo-question-body {
+      a {
+        color: #FFFFFF;
+        &hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  
+  .question-why-right {
+    .hapo-why-right {
+      object-fit: cover;
+    }
+  }
+}
+
+.hapo-question {
+  .why-one {
+    height: 180px;
+    .hapo-question-why {
+      opacity: 0;
+    }
+  }
+  
+  .why-two {
+    height: 550px;
+  }
+}
+
 .banner-second {
   height: 500px;
   background: url("../image/Group\ 7.png") no-repeat center/cover;
