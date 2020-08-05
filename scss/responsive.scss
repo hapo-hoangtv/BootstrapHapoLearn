@@ -106,7 +106,7 @@
   }
 
   .hapo-question {
-    height: 395px;
+    // height: 395px;
     .question-logo {
       margin-top: -150px;
     }
@@ -140,7 +140,6 @@
 
   .hapo-question {
     .why-one {
-      height: 130px;
       .hapo-question-why {
         @include font(bold, 50px, 'UTM BryantLG', 61px, $mainfootercolor);
         margin-top: 37px;
@@ -149,7 +148,7 @@
     }
 
     .why-two {
-      height: 265px;
+      margin-top: -60px;
       .hapo-question-title {
         opacity: 0;
       }
@@ -305,7 +304,6 @@
 
   .hapo-question {
     margin-top: 220px;
-    height: 569px;
     .question-logo {
       margin-top: -100px;
     }
@@ -337,17 +335,16 @@
 
   .hapo-question {
     .why-one {
-      height: 144px;
       .hapo-question-why {
         @include font(bold, 40px, 'UTM BryantLG', 40px, $mainfootercolor);
-        margin-top: 40px;
+        margin-top: 30px;
         margin-left: -45px;
         opacity: 1;
       }
     }
 
     .why-two {
-      height: 425px;
+      padding-top: 50px;
       .hapo-question-title {
         opacity: 0;
       }

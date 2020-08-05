@@ -126,7 +126,6 @@
 }
 
 .hapo-question {
-  height: 730px;
   background: url('../image/Rectangle\ 17.png') no-repeat center/cover;
   .question-logo {
     margin-top: -225px;
@@ -169,14 +168,9 @@
 
 .hapo-question {
   .why-one {
-    height: 180px;
     .hapo-question-why {
       opacity: 0;
     }
-  }
-  
-  .why-two {
-    height: 550px;
   }
 }
 
