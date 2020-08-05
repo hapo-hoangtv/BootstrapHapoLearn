@@ -69,8 +69,7 @@
   }
 
   .banner-second {
-    height: 330px;
-
+    padding-bottom: 80px;
     .become-title {
       @include font(bold,35px,'UTM BryantLG',43px,$mainfootercolor);
       padding-top: 40px;
@@ -211,8 +210,7 @@
   }
 
   .banner-second {
-    height: 182px;
-
+    padding-bottom: 50px;
     .become-title {
       @include font(bold,23px,'UTM BryantLG',28px,$mainfootercolor);
       padding-top: 34px;

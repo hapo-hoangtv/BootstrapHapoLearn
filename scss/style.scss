@@ -126,17 +126,15 @@
 }
 
 .banner-second {
-  height: 500px;
+  padding-bottom: 120px;
   background: url("../image/Group\ 7.png") no-repeat center/cover;
-
   .become-title {
     @include font(bold,60px,'UTM BryantLG',74px,$mainfootercolor);
     padding-top: 80px;
   }
 
   .btn-start-learn {
-    width: 100%;
-    padding: 10px;
+    padding: 10px 30px;
     margin-top: 20px;
     @include font(bold,30px,'UTM BryantLG',37px,$bannersecondcolor);
     background-color: white;
@@ -161,6 +159,7 @@
 }
 
 .statistic {
+  margin-bottom: 50px;
   .statistic-body {
     .statistic-learn {
       margin-top: 50px;
