@@ -106,7 +106,6 @@
   }
 
   .hapo-question {
-    // height: 395px;
     .question-logo {
       margin-top: -150px;
     }
@@ -256,7 +255,7 @@
   }
 
   .banner-second {
-    height: 182px;
+    padding-bottom: 50px;
     .become-title {
       @include font(bold, 23px, 'UTM BryantLG', 28px, $mainfootercolor);
       padding-top: 34px;
