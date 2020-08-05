@@ -32,8 +32,8 @@
   background: url("../image/Rectangle\ 1.png") no-repeat center/cover;
   .hapo-banner {
     margin-left: 35px;
+    transform: translateY(70%);
     .banner-learn {
-      margin-top: 200px;
       @include font(normal,50px,'UTM BryantLG',61px,#11114E);
     }
 
@@ -60,6 +60,68 @@
         opacity: 0.8; 
       }
     }
+  }
+}
+
+.main-footer {
+  background-color: #505353;
+}
+
+.footer-logo {
+  display: block;
+}
+
+.footer-logo-note {
+  @include font(normal,20px,'UTM BryantLG',25px,$mainfootercolor);
+  letter-spacing: -0.05em;
+  margin-left: 85px;
+}
+
+.footer-menu {
+  padding: 10px;
+  a {
+    @include font(bold,20px,'UTM BryantLG',25px,$mainfootercolor);
+    letter-spacing: -0.05em;
+    text-decoration: none;
+    &:hover {
+      color: $mainfootercolor;
+      text-decoration: underline;
+    }
+  }
+}
+
+.social {
+  a {
+    margin-left: 25px;
+    width: 50px;
+    color: $mainfootercolor;
+    transition: all ease-in-out .5s;
+    &:hover {
+      width: 270px;
+      cursor: pointer;
+      color: $mainfootercolor;
+      text-decoration: underline;
+    }
+      img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+      }
+      p {
+        margin-left: 5px;
+        @include font(normal,20px,'UTM BryantLG',25px,$mainfootercolor);
+        overflow: hidden;
+      }
+  }
+}
+
+.copy-right {
+  background-color: #454545;
+  text-align: center;
+  p {
+    @include font(normal,16px,'UTM BryantLG',18px,$mainfootercolor);
+    letter-spacing: -0.05em;
+    padding: 5px;
   }
 }
 
