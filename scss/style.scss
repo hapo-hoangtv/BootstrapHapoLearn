@@ -1,5 +1,4 @@
 @import 'variable';
-
 .header-all {
   .header-logo {
     padding: 10px 0 10px 30px;
@@ -12,7 +11,6 @@
     li {
       padding: 0 5px;
     }
-    
     a {
       padding: 10px;
       font: bold 14px/19px Open-Sans;
@@ -36,18 +34,15 @@
     .banner-learn {
       @include font(normal,50px,'UTM BryantLG',61px,#11114E);
     }
-
     .banner-title {
       @include font(bold,50px,'UTM BryantLG',61px,#11114E);
     }
-
     .banner-des {
       letter-spacing: -0.05em;
       height: 50px;
       margin-top: 10px;
-      @include font(normal,20px,'UTM BryantLG',25px, #505353);
+      @include font(normal,20px,'UTM BryantLG',25px,#505353);
     }
-
     .btn-start {
       background: $buttonstartcolor;
       border-radius: 35px;
@@ -57,7 +52,7 @@
       margin-top: 25px;
       @include font(normal,30px,'UTM BryantLG',37px,#FFFFFF);
       &:hover {
-        opacity: 0.8; 
+        opacity: 0.8;
       }
     }
   }
@@ -102,16 +97,16 @@
       color: $mainfootercolor;
       text-decoration: underline;
     }
-      img {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-      }
-      p {
-        margin-left: 5px;
-        @include font(normal,20px,'UTM BryantLG',25px,$mainfootercolor);
-        overflow: hidden;
-      }
+    img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+    p {
+      margin-left: 5px;
+      @include font(normal,20px,'UTM BryantLG',25px,$mainfootercolor);
+      overflow: hidden;
+    }
   }
 }
 
