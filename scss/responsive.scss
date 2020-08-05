@@ -66,7 +66,7 @@
     }
   }
   .banner-second {
-    height: 330px;
+    padding-bottom: 80px;
     .become-title {
       @include font(bold, 35px, 'UTM BryantLG', 43px, $mainfootercolor);
       padding-top: 40px;
